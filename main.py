@@ -22,7 +22,7 @@ print(r"""
 print("[+] Welcome to CrackMap")
 time.sleep(1)
 
-args = argparse.ArgumentParser()
+args = argparse.ArgumentParser(add_help=False)
 args.add_argument("-p", required=False, type=str)
 args.add_argument("-w", required=False, type=str)
 args.add_argument("-m", required=False, type=str)
