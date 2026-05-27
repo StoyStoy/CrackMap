@@ -62,9 +62,6 @@ def hash_crack():
 valid_modes = {"md5", "sha1", "sha256", "sha512"}
 if mode in valid_modes:
     hash_crack()
-elif mode not in valid_modes:
-    print("[-] invalid HashType")
-    sys.exit()
 if help1:
     print("""
     
